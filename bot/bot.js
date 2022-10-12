@@ -1,7 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 
 const token = '5679586788:AAFoBJWVDKJ-ApU_8MVhnwWC_Ipom9mdeSM';
-const url = 'https://vk.com'
+const url = 'https://cute-zabaione-797912.netlify.app'
 const bot = new TelegramBot(token, { polling: true });
 
 bot.on('message', (msg) => {
