@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import './App.css';
-import Product from './components/Product/Product'
+import Product from './components/Product/Product.jsx'
 
 const tg = window.Telegram.WebApp;
 function App() {
