@@ -6,9 +6,11 @@ const onRec = () => {
 }
 
 const Button = () => {
-    <div>
-        <button onClick={onRec}>Записаться</button>
-    </div>
+    return (
+        <div>
+            <button onClick={onRec}>Записаться</button>
+        </div >
+    )
 }
 
 export default Button;
